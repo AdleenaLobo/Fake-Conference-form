@@ -10,8 +10,65 @@
         <div>Speaker Submission</div>
         <div>Want to speak at our fake conference?<br>Fill out this form</div>
     </div>
+    <div>
     <form action=" " method="get">
+        <fieldset>
+            <legend>Personal details</legend>
+        <p>
+            <label for="name">Name:</label>
+            <input type="text" id="name">
+        </p>
+        <p>
+            <label for="mail">Email:</label>
+            <input type="email" id="mail">
+        </p>
+    </fieldset>
+    <fieldset>
+        <legend>Related to conference</legend>
+        <p>
+            <label for="talk">Type of talk:</label>
+
+                <div>
+                <p>
+                <input type="radio" name="talk" id="type-1" value="Main Stage">
+                <label for="type-1">Main Stage</label></p>
+                <p>
+                <input type="radio" name="talk" id="type-2" value="workshop">
+                <label for="type-2">Workshop</label></p>
+            </div>
+
+        </p>
+        <p>
+            <label for="size">T-shirt Size</label>
+            <select name="user_size" id="size">
+                <optgroup label="usual">
+                <option value="small" selected>Small</option>
+                <option value="Medium">Medium</option>
+                <option value="Large">Large</option>
+            </optgroup>
+            <optgroup label="limited">
+                <option value="x-small">x-small</option>
+                <option value="x-Large">x-large</option>
+            </optgroup>
+            </select>
+        </p>
+        <p>
+            <label for="abs">Abstract</label>
+            <textarea name="abb" id="abs" cols="30" rows="10">your saying</textarea>
+            <p>Describe your talk in 500 words or less</p>
+        </p>
+        <p>
+            <input type="checkbox" name="avaib" id="availablity" value="available">
+            <label for="available">i'm actually available the date of the talk</label>
+            
+        </p>
+        
+    </fieldset>
+    <p>
+        <button type="submit">Submit</button>
+    </p>
 
     </form>
+</div>
 </body>
 </html>
