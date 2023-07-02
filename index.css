@@ -11,6 +11,7 @@ body
 
 #HeadingBlock
 {
+    margin:2rem;
     display:flex;
     flex-direction: column;
     justify-content: center;
@@ -36,7 +37,8 @@ body
 form
 {
     background-color: rgb(250, 252, 255);
-    margin-top: 0.5rem;
+    margin: 2rem;
+    margin-top: 1rem;
     border:1px solid silver;
     box-shadow: inset 0 0 4px  silver ;
 }
@@ -50,4 +52,53 @@ legend
 fieldset
 {
     margin-top: 5px;
+}
+
+.PersonalDetBod
+{
+    display:flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+.ConferenceBod
+{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+}
+.AbsDisc
+{
+    padding-left:7em;
+}
+
+textarea
+{
+    resize: none;
+}
+
+.AbstractC
+{
+    display: flex;
+    flex-direction: column;
+}
+
+#inside
+{
+    display:flex;
+    justify-content: center;
+    gap:0.5em;
+}
+
+button
+{
+    background-color: rgb(29, 107, 252);
+    color:white;
+    min-width: 6rem;
+    min-height: 2rem;
+}
+.button
+{
+    display:flex;
+    justify-content: center;
 }

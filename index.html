@@ -15,6 +15,7 @@
     <form action=" " method="get">
         <fieldset>
             <legend>Personal details</legend>
+        <div class="PersonalDetBod">
         <p>
             <label for="name">Name:</label>
             <input type="text" id="name">
@@ -23,9 +24,11 @@
             <label for="mail">Email:</label>
             <input type="email" id="mail">
         </p>
+    </div>
     </fieldset>
     <fieldset>
         <legend>Related to conference</legend>
+        <div class="ConferenceBod">
         <p>
             <label for="talk">Type of talk:</label>
 
@@ -53,19 +56,20 @@
             </optgroup>
             </select>
         </p>
-        <p>
+        <p class="AbstractC">
+            <div id="inside">
             <label for="abs">Abstract</label>
-            <textarea name="abb" id="abs" cols="30" rows="10" >your saying</textarea>
-            <p>Describe your talk in 500 words or less</p>
+            <textarea name="abb" id="abs" cols="20" rows="10" >your saying</textarea><br></div>
+            <span class="AbsDisc">Describe your talk in 500 words or less</span>
         </p>
         <p>
             <input type="checkbox" name="avaib" id="availablity" value="available">
             <label for="available">i'm actually available the date of the talk</label>
             
         </p>
-        
+    </div>
     </fieldset>
-    <p>
+    <p class="button">
         <button type="submit">Submit</button>
     </p>
 
