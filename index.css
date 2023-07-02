@@ -1,0 +1,33 @@
+html
+{
+    height:100%;
+}
+
+body
+{
+    background-color: rgb(231, 230, 230);
+}
+
+#HeadingBlock
+{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(250, 252, 255);
+    border:1px solid silver;
+    box-shadow: inset 0 0 4px  silver ;
+}
+
+#HeadingBlock .Heading
+{
+    color:rgb(151, 149, 149);
+    font-weight:3rem;
+    font-size:3rem;
+    text-align: center;
+}
+
+#HeadingBlock .HeadingBody
+{
+    text-align:center;
+    color:rgb(164, 164, 164)
+}
